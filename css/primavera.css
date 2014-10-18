@@ -1,0 +1,136 @@
+
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "Cabin", sans-serif;
+}
+.container-img{
+    background:url("../assets/pictures/main-img.jpg") no-repeat 0 0;
+    background-size:1580px;
+    height:1000px;
+
+    
+}
+
+.menu a{
+   
+    font-size:21px;
+    line-height: 22px; 
+    font-weight:normal;
+     display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding:10px 10px;
+    margin: 0;
+
+}
+
+.menu a:hover{
+    background-color: green;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+}
+ .menu a:active{
+    color:gray;
+    border-radius: 10px;
+    border:1px solid #e1e1e1;
+ }
+
+.btn-tel{
+    color:white;
+    font-size: 21px;
+    line-height: 45px;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.icon-phone{
+    background-image:url("..assets/img/icons/phone-icon.svg") no-repeat; 
+    color: #b7bfc8;
+    height:30px;
+    width:30px;
+  
+}
+ .location{
+    font-size: 21px;
+    color:white;
+    display:inline-block;
+    
+    
+
+ }
+.title{
+    font-family:'Great Vibes', cursive;
+    font-size: 60px;
+    color:white;
+    line-height: 72px;
+    display: block;
+    padding:20px 20px;
+    padding-bottom: 0px;
+    margin-left: 120px;
+    margin-top: 140px;
+}
+
+.lead{
+    color:white;
+    font-size: 21px;
+    line-height: 22px;
+    margin-top:15px;
+    margin-left: 200px;
+}
+
+.book-btn a{
+    margin-left: 200px;
+    margin-top:80px;
+    padding: 10px 20px;
+    padding-left: 25px;
+    border-radius: 8px;
+    background-color: none;
+    border:1px solid white;
+    color:white;
+    font-size: 19px;
+    width:250px;
+    height:30px;
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+.book-btn a:hover{
+     border:1px solid #a8a8a8;
+     color:#d8d8d8;
+}
+
+.book-btn a:visited{
+     border:1px solid #787878;
+     background-color:#d8d8d8;
+}
+
+.scroll{
+    color:white;
+    font-size: 16px;
+    display: inline-block;
+ 
+}
+.logo{
+    color:black;
+}
+.fb-logo{
+    width:35px;
+    height:35px;
+}   
+
+
+
+
+.pure-table td{
+    min-width: 15px;
+}
+.pure-table td:hover{
+    background-color: red;
+}
